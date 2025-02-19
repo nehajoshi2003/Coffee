@@ -6,7 +6,11 @@ import HomePage from './components/HomePage';
 import MenuPage from './components/MenuPage';
 import OrderDetails from './components/OrderDetails';
 import Contact from './components/Contact';
-
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter basename="/Coffee/"> {/* Add this line */}
+    <App />
+  </BrowserRouter>
+);
 const App = () => {
   return (
     <CartProvider> {/* Wrap with CartProvider */}
