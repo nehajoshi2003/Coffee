@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Change all Swiper pagination dots to brown */
+.swiper-pagination-bullet {
+    background-color: #A89478 !important; /* Saddle Brown */
+  }
+  
+  /* Change the active Swiper pagination dot to a darker brown */
+  .swiper-pagination-bullet-active {
+    background-color: #371c0b !important; /* Dark Brown */
+  }
+  
